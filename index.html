@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--navy:#14305c;--red:#c8202f;--cream:#fdfaf2;--line:#14305c;--soft:#dfe5f0;--muted:#5a6a86;--card:#fff;
---head:"Bricolage Grotesque","Trebuchet MS",sans-serif;--body:"Source Sans 3","Segoe UI",Arial,sans-serif}
+--g1:#2f63b0;--g2:#c8202f66;--hl:#ff8a94;--tint:#e9eefc;--head:"Bricolage Grotesque","Trebuchet MS",sans-serif;--body:"Source Sans 3","Segoe UI",Arial,sans-serif}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:70px}
@@ -25,17 +25,17 @@ nav{display:flex;gap:4px;flex-wrap:wrap}
 nav a{text-decoration:none;padding:6px 12px;border-radius:99px;font-weight:600}
 nav a:hover{background:var(--soft)}
 main{max-width:1040px;margin:0 auto;padding:20px 20px 60px}
-.hero{background:radial-gradient(circle at 88% 12%,#2f63b0 0,transparent 42%),radial-gradient(circle at 5% 100%,#c8202f66 0,transparent 38%),var(--navy);color:#fff;border-radius:16px;padding:44px 32px;display:grid;gap:16px;position:relative;overflow:hidden}
+.hero{background:radial-gradient(circle at 88% 12%,var(--g1) 0,transparent 42%),radial-gradient(circle at 5% 100%,var(--g2) 0,transparent 38%),var(--navy);color:#fff;border-radius:16px;padding:44px 32px;display:grid;gap:16px;position:relative;overflow:hidden}
 .hero>*{position:relative}.hero>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.3}
 .logos{display:flex;gap:14px;align-items:center}
 .logos img{height:60px;width:auto;border-radius:6px;background:#fff;padding:4px}
 h1{font:800 clamp(2.4rem,8vw,4.6rem)/1 var(--head);margin:0;letter-spacing:-.02em}
-h1 em{font-style:normal;color:#ff8a94}
+h1 em{font-style:normal;color:var(--hl)}
 .school{margin:0;opacity:.85;font-size:1.1rem}
 .btns{display:flex;gap:12px;flex-wrap:wrap}
 .btn{padding:11px 20px;border-radius:8px;font-weight:700;text-decoration:none;border:2px solid #fff;color:#fff}
 .btn.main{background:var(--red);border-color:var(--red)}
-.note{background:#e9eefc;border-left:5px solid var(--red);padding:16px 20px;border-radius:0 8px 8px 0;margin-top:18px}
+.note{background:var(--tint);border-left:5px solid var(--red);padding:16px 20px;border-radius:0 8px 8px 0;margin-top:18px}
 .note b{font-family:var(--head)}
 section{padding-top:44px}
 h2{font:800 1.9rem var(--head);margin:0 0 16px}
@@ -77,7 +77,7 @@ button{font:700 .95rem var(--body);cursor:pointer}
 .res a{background:#fff;border:1px solid var(--soft);border-radius:10px;padding:16px;text-decoration:none}
 .res a:hover{border-color:var(--red)}
 .res b{font-family:var(--head);display:block}
-.fine{color:var(--muted);font-size:.9rem;margin-top:14px;background:#e9eefc;padding:14px 18px;border-radius:8px}
+.fine{color:var(--muted);font-size:.9rem;margin-top:14px;background:var(--tint);padding:14px 18px;border-radius:8px}
 footer{text-align:center;color:var(--muted);padding:30px 20px;border-top:1px solid var(--soft)}
 footer button{background:none;border:none;color:var(--muted);text-decoration:underline;margin-left:10px}
 dialog{border:1px solid var(--soft);border-radius:12px;padding:24px;max-width:340px;color:var(--navy)}
@@ -113,6 +113,8 @@ nav a.on{background:var(--navy);color:#fff}
 .box{transition:box-shadow .2s}.box:hover{box-shadow:0 8px 20px #14305c22}
 .grid:not(.h):hover{background:#f8faff}
 .hero h1{text-wrap:balance}
+.deco{position:absolute!important;right:24px;top:14px;font-size:2.6rem;letter-spacing:6px}
+.th{display:inline-flex;align-items:center;gap:8px;margin:0 8px 8px 0}.th i{width:22px;height:22px;border-radius:50%;border:1px solid #0003}
 @media(max-width:720px){.grid{grid-template-columns:1fr}.grid.h{display:none}.hero{padding:30px 20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cat>summary::after{transition:none}}
 </style>
@@ -132,6 +134,7 @@ nav a.on{background:var(--navy);color:#fff}
 
 <main id="main-content">
   <div class="hero" id="top">
+    <div class="deco" id="deco" aria-hidden="true"></div>
     <video id="bgv" muted loop playsinline hidden aria-hidden="true"></video>
     <div class="logos">
       <img data-f="branding/hosa.png" data-t="HOSA" src="branding/hosa.png" alt="HOSA – Future Health Professionals">
@@ -206,6 +209,7 @@ window.SITE = {
   // Default teacher code is TITAN2026. Change it in the editor right away.
   codeHash: "131325c1df02b3ece2ca223db417ae876b1e2a2b854ff4e20456246409f1658d",
   update: "Welcome, future health professionals! Check here for chapter updates, meeting details, and competition resources.",
+  theme: "default",   // default, halloween, fall, christmas, valentine, spring, winter
   video: "",   // paste a YouTube link or an .mp4 path here (or use the editor)
   heroBg: "",  // optional looping banner video, e.g. "branding/bg.mp4"
   meetings: [{ day: "23", mon: "Oct", title: "Official Meeting (Mandatory)", sub: "Friday, 2026 · 8:00-8:30 · Room C108" }],
@@ -352,7 +356,7 @@ function dateEd(key,title){
 }
 function renderEditor(){
   var h = '<div class="ed"><b>Chapter update</b><textarea data-p="update" aria-label="Chapter update">'+esc(S.update)+'</textarea></div>'+
-    '<div class="ed"><b>Videos</b><div class="er">'+inp("video",S.video,"Chapter video link (YouTube link or .mp4)",420)+inp("heroBg",S.heroBg,"Top banner video file (optional, e.g. branding/bg.mp4)",320)+'</div><p class="hint">Paste a YouTube link, or upload an .mp4 to GitHub and put its path here.</p></div>'+dateEd("meetings","Next meetings")+dateEd("dates","Important dates")+dateEd("past","Past updates")+
+    themeEd()+'<div class="ed"><b>Videos</b><div class="er">'+inp("video",S.video,"Chapter video link (YouTube link or .mp4)",420)+inp("heroBg",S.heroBg,"Top banner video file (optional, e.g. branding/bg.mp4)",320)+'</div><div class="er"><label>Choose a video file from your computer<input type="file" accept="video/*" data-v="video"></label><label>Choose a banner video file<input type="file" accept="video/*" data-v="heroBg"></label></div><p class="hint" id="vmsg">Easiest: paste a YouTube link. Or pick an .mp4 here, then upload that same file to the <b>branding</b> folder on GitHub (under 25 MB), and download + upload data.js.</p></div>'+dateEd("meetings","Next meetings")+dateEd("dates","Important dates")+dateEd("past","Past updates")+
     '<div class="ed"><b>Access code</b><p class="hint">Leave blank to keep the current code. To change it, type a new one and then download data.js.</p><input id="nc" placeholder="New access code" autocomplete="off"></div>'+
     '<p class="hint">Competitions are edited below. When you are done, click <b>Download data.js</b> at the top and upload it to GitHub to publish your changes.</p>';
   $("staff").innerHTML = h;
@@ -419,14 +423,29 @@ document.querySelectorAll("img[data-f]").forEach(function(im){
   if(im.complete&&im.naturalWidth===0)im.onerror();
 });
 window.onerror=function(m){var d=document.createElement("div");d.style.cssText="position:fixed;left:10px;right:10px;bottom:10px;background:#c8202f;color:#fff;padding:12px;border-radius:8px;z-index:99";d.textContent="Something went wrong on this page: "+m+" (tell your site helper this message)";document.body.appendChild(d)};
+var THEMES={
+default:{l:"Titan blue",e:"",v:{"--navy":"#14305c","--red":"#c8202f","--cream":"#fdfaf2","--soft":"#dfe5f0","--muted":"#5a6a86","--g1":"#2f63b0","--g2":"#c8202f66","--hl":"#ff8a94","--tint":"#e9eefc"}},
+halloween:{l:"Halloween",e:"🎃🦇",v:{"--navy":"#2a1740","--red":"#c94a00","--cream":"#fff3e6","--soft":"#eadcf5","--muted":"#6b5a7e","--g1":"#6a2fb0","--g2":"#ff7a1a77","--hl":"#ffb066","--tint":"#f1e6fb"}},
+fall:{l:"Fall",e:"🍂🍁",v:{"--navy":"#4a2c17","--red":"#b4531a","--cream":"#fff6e8","--soft":"#ecdcc8","--muted":"#7a6350","--g1":"#a0541d","--g2":"#d9a44166","--hl":"#ffc27a","--tint":"#fbebd6"}},
+christmas:{l:"Christmas",e:"🎄⭐",v:{"--navy":"#0f3d2e","--red":"#b3162b","--cream":"#fbfaf4","--soft":"#d9e8df","--muted":"#50695d","--g1":"#1c7a52","--g2":"#b3162b66","--hl":"#ff9aa6","--tint":"#e4f3ea"}},
+valentine:{l:"Valentine's",e:"💖💌",v:{"--navy":"#5a1a3a","--red":"#d6336c","--cream":"#fff5f8","--soft":"#f6dbe5","--muted":"#85506a","--g1":"#c2255c","--g2":"#ff8fb166","--hl":"#ffc2d6","--tint":"#fde6ef"}},
+spring:{l:"Spring",e:"🌸🌿",v:{"--navy":"#1f4d3a","--red":"#d64f7d","--cream":"#f8fdf5","--soft":"#dcebd6","--muted":"#587a62","--g1":"#3aa56a","--g2":"#f4b6d066","--hl":"#ffd0e2","--tint":"#e6f5e0"}},
+winter:{l:"Winter",e:"❄️⛄",v:{"--navy":"#17365d","--red":"#2f7fd1","--cream":"#f5faff","--soft":"#d6e6f5","--muted":"#587390","--g1":"#4a90d9","--g2":"#bfe0ff66","--hl":"#bfe3ff","--tint":"#e3f0fc"}}};
+function applyTheme(){var t=THEMES[S.theme]||THEMES["default"],r=document.documentElement.style;for(var k in t.v)r.setProperty(k,t.v[k]);$("deco").textContent=t.e}
+function themeEd(){return '<div class="ed"><b>Background theme</b><p class="hint">Pick a look for the whole site. You see it right away. Download data.js and upload it to GitHub so everyone sees it.</p>'+Object.keys(THEMES).map(function(k){var t=THEMES[k];return '<button type="button" class="tb th'+((S.theme||"default")===k?' on':'')+'" data-theme="'+k+'"><i style="background:linear-gradient(90deg,'+t.v["--navy"]+' 50%,'+t.v["--red"]+' 50%)"></i>'+t.e+' '+t.l+'</button>'}).join("")+'</div>'}
+document.addEventListener("click",function(ev){var b=ev.target.closest("[data-theme]");if(!b)return;S.theme=b.dataset.theme;renderAll()});
+document.addEventListener("change",function(ev){var f=ev.target;if(!f.dataset||!f.dataset.v||!f.files[0])return;var file=f.files[0];
+  S[f.dataset.v]="branding/"+encodeURI(file.name);if(f.dataset.v==="video")window.__prev=URL.createObjectURL(file);
+  renderAll();var m=$("vmsg");if(m)m.innerHTML="Chosen: <b>"+esc(file.name)+"</b>. Now upload this exact file to the <b>branding</b> folder on GitHub, then click Download data.js and upload that too."});
 var typeF="All";
 ["All","Individual","Team","Chapter"].forEach(function(t){var b=document.createElement("button");b.type="button";b.className="tb"+(t==="All"?" on":"");b.textContent=t;b.onclick=function(){typeF=t;[].forEach.call($("chips").children,function(x){x.classList.toggle("on",x===b)});if(!editing)renderCats()};$("chips").appendChild(b)});
 function ytId(u){var m=u.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/);return m&&m[1]}
 function extras(){
-  var u=(S.video||"").trim(), v=$("vid");
+  applyTheme();
+  var u=(window.__prev||S.video||"").trim(), v=$("vid");
   if(!u) v.innerHTML='<p style="padding:20px;text-align:center">Chapter video coming soon.</p>';
   else if(ytId(u)) v.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+ytId(u)+'" title="Titan HOSA chapter video" allowfullscreen loading="lazy"></iframe>';
-  else if(/\.(mp4|webm|mov)(\?|$)/i.test(u)) v.innerHTML='<video src="'+esc(u)+'" controls playsinline></video>';
+  else if(/^blob:/.test(u)||/\.(mp4|webm|mov)(\?|$)/i.test(u)) v.innerHTML='<video src="'+esc(u)+'" controls playsinline></video>';
   else v.innerHTML='<p style="padding:20px;text-align:center"><a href="'+esc(u)+'" style="color:#fff">Watch the chapter video</a></p>';
   var b=$("bgv"); if(S.heroBg){b.hidden=false;if(b.getAttribute("src")!==S.heroBg)b.src=S.heroBg;if(!matchMedia("(prefers-reduced-motion:reduce)").matches)b.play().catch(function(){})}else{b.hidden=true}
   var n=0;S.cats.forEach(function(c){n+=c.events.length});var m=S.meetings[0],dn="";if(m){var df=Math.ceil((new Date(m.mon+" "+m.day+", "+new Date().getFullYear())-new Date())/864e5);if(!isNaN(df)&&df>=0)dn=" · in "+df+" days"}
