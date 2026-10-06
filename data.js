@@ -2,7 +2,7 @@ window.SITE = {
  "codeHash": "e9ee69be199f170954136d49372336727c9dcbc0bed1c4a78917f9fcf88297b8",
  "update": "Welcome, future health professionals! Check here for chapter updates, meeting details, and competition resources.",
  "video": "",
- "heroBg": "branding/Screen%20Recording%202026-09-27%20213435.mp4",
+ "heroBg": "",
  "meetings": [
   {
    "day": "23",
@@ -21,8 +21,26 @@ window.SITE = {
   {
    "day": "17",
    "mon": "Oct",
-   "title": "Fall Leadership Conference",
+   "title": "Fall Leadership Conference (Officers)",
    "sub": "Saturday, 2026"
+  },
+  {
+   "day": "10",
+   "mon": "10",
+   "title": "Red Ribbon Parade",
+   "sub": "Saturday, 2026"
+  },
+  {
+   "day": "27",
+   "mon": "10",
+   "title": "Trunk o treat ",
+   "sub": "After School "
+  },
+  {
+   "day": "",
+   "mon": "",
+   "title": "Candy Drive ",
+   "sub": "every 2 bags of candy 5 community hours/ no chocolate please."
   }
  ],
  "past": [
@@ -41,7 +59,7 @@ window.SITE = {
      "n": "Behavioral Health",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -51,7 +69,7 @@ window.SITE = {
      "n": "Biomedical Equipment Technician",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -61,7 +79,7 @@ window.SITE = {
      "n": "Dental Terminology",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -71,7 +89,7 @@ window.SITE = {
      "n": "Healthcare Administration",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -81,7 +99,7 @@ window.SITE = {
      "n": "Health Informatics",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -101,7 +119,7 @@ window.SITE = {
      "n": "Medical Law & Ethics",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -111,7 +129,7 @@ window.SITE = {
      "n": "Medical Math",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -121,7 +139,7 @@ window.SITE = {
      "n": "Medical Reading",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -131,7 +149,7 @@ window.SITE = {
      "n": "Medical Spelling",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -141,7 +159,7 @@ window.SITE = {
      "n": "Medical Terminology",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -151,17 +169,17 @@ window.SITE = {
      "n": "Nutrition",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
      "pdf": "https://texashosa.org/wp-content/uploads/26-27-Nutrition-Txgl-1.pdf"
     },
     {
-     "n": "Pharacology",
+     "n": "Pharmacology",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -171,7 +189,7 @@ window.SITE = {
      "n": "Pathophysiology",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -181,7 +199,7 @@ window.SITE = {
      "n": "World Health & Disparities",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 4 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
@@ -196,201 +214,201 @@ window.SITE = {
      "n": "Biotechnology",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-BioTech-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Clinical Laboratory Science",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Clinical-Lab-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Clinical Specialty",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Clinical-Speciality-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Dental Science",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Dental-Science-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Family Medicine Physician",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "C",
-     "u": "C",
+     "u": "ILC",
      "note": "Texas: bring a printed interview verification form; upload it for ILC. Section G lists an Area test, but the event guideline describes interviews and a presentation without a test. Ask your advisor to resolve this discrepancy.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Family-Medicine-Txgl-9.21.26.pdf"
+     "pdf": ""
     },
     {
      "n": "Home Health Aide",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Home-Health-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Medical Assisting",
      "w": "Sierra Allen",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Medical-Assisting-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Clinical Nursing",
      "w": "To be assigned",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Clinical-Nursing-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Nursing Assisting",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Nursing-Assistant-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Occupational Therapy",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Occupational-Therapt-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Patient Care Technician",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Patient-Care-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Pharmacy Science",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
-     "a": "C",
+     "s": "1 person",
+     "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Pharm-Science-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Phlebotomy",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Phlebotomy-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Physical Therapy",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Physical-Therapy-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Respiratory Therapy",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Respiratory-Therapy-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Sports Medicine",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Sports-Med-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Surgical Technologist",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Surg-Tech-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Veterinary Science",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Vet-Science-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Personal Care",
      "w": "Yadira Solis",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "1 person",
      "a": "C",
      "u": "C",
      "note": "Eligibility requirements apply; review the event guidelines.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Personal-Care-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Physician Assistant – Medical Case Challenge",
      "w": "José González",
      "t": "Individual",
-     "s": "Max 2 people",
+     "s": "2 people",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Physician-Assistant-TXgl.pdf"
+     "pdf": ""
     }
    ]
   },
@@ -400,82 +418,82 @@ window.SITE = {
     {
      "n": "CERT Skills",
      "w": "Yadira Solis",
-     "t": "Chapter",
-     "s": "2 Teams 2 People per team",
+     "t": "Team",
+     "s": "2 people",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-CERT-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "CPR/First Aid",
      "w": "Lidia Martinez",
-     "t": "Chapter",
-     "s": "2 Teams 2 People per team",
+     "t": "Team",
+     "s": "2 people",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-CPR-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Emergency Medical Technician",
      "w": "Lidia Martinez",
-     "t": "Chapter",
-     "s": "2 Teams 2 People per team",
+     "t": "Team",
+     "s": "2 people",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-EMT-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "MRC Partnership",
      "w": "Lidia Martinez",
      "t": "Team",
-     "s": "6 people",
+     "s": "2–6 people",
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-MRC-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Public Health",
      "w": "Lidia Martinez",
      "t": "Team",
-     "s": "6 people",
+     "s": "2–6 people",
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Public-Health-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Mental Health Promotion",
      "w": "Lidia Martinez",
      "t": "Team",
-     "s": "6 people",
+     "s": "2–6 people",
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Mental-Health-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Epidemiology",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Epidemiology-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Life Support Skills",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "N",
-     "u": "AS",
+     "u": "N",
      "note": "Eligibility requirements apply; review the event guidelines.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Life-Support-Txgl.pdf"
+     "pdf": ""
     }
    ]
   },
@@ -486,61 +504,61 @@ window.SITE = {
      "n": "Extemporaneous Writing – Health Policy",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "N",
      "u": "ILC",
      "note": "Write at the event. Texas uses a supplied USB drive; ILC uses a digital upload after the timed writing. No advance online upload or online test.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Ext-Writing-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Health Career Photography",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "N",
-     "u": "ILC",
+     "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-HC-Photography-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Healthy Living",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "Y",
      "u": "N",
      "note": "Area Round 1 is online; State rounds are in person. Bring a printed portfolio for the presentation; it is not uploaded.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Healthy-Living-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Job Seeking Skills",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Job-Seeking-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Interviewing Skills",
      "w": "Lidia Martinez",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "N",
      "u": "AS",
      "note": "Eligibility requirements apply; review the event guidelines. Upload by the Area deadline. If advancing, follow the State and ILC resubmission requirements.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Interviewing-Skills-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Organizational Leadership",
      "w": "Stefania Bautista",
      "t": "Individual",
-     "s": "MAX 2 Persons",
+     "s": "1 person",
      "a": "I",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Organizational-Leadership-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Prepared Speaking",
@@ -550,7 +568,7 @@ window.SITE = {
      "a": "N",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Prepared-Speaking-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Researched Persuasive Writing & Speaking",
@@ -560,7 +578,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Research-Persuasive-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Speaking Skills",
@@ -568,9 +586,9 @@ window.SITE = {
      "t": "Individual",
      "s": "1 person",
      "a": "N",
-     "u": "S",
+     "u": "N",
      "note": "Eligibility requirements apply; review the event guidelines.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Speaking-Skills-Txgl.pdf"
+     "pdf": ""
     }
    ]
   },
@@ -581,11 +599,11 @@ window.SITE = {
      "n": "Biomedical Debate",
      "w": "Stefania Bautista",
      "t": "Team",
-     "s": "4 people",
+     "s": "3–4 people",
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Bio-Debate-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Community Awareness",
@@ -595,7 +613,7 @@ window.SITE = {
      "a": "C",
      "u": "AS",
      "note": "Upload the portfolio for Area and again for State/ILC if advancing. Section G lists an Area test, but the event guideline uses portfolio judging and a presentation. Ask your advisor to confirm testing.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Community-Awareness-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Health Education",
@@ -605,7 +623,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Health-Education-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Creative Problem Solving",
@@ -615,7 +633,7 @@ window.SITE = {
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Creative-Problem-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Forensic Science",
@@ -625,7 +643,7 @@ window.SITE = {
      "a": "Y",
      "u": "ILC",
      "note": "Area Round 1 is online. Texas Area/State case-study conclusions are written on paper. ILC requires a digital conclusion submission during Round 2; no advance upload.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Forensic-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Health Career Display",
@@ -635,7 +653,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Health-Career-Display-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "HOSA Bowl",
@@ -645,7 +663,7 @@ window.SITE = {
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-HOSA-Bowl-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Research Poster",
@@ -655,7 +673,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "Changed to a team event for 2026–2027. Upload by the Area deadline. If advancing, follow the State and ILC resubmission requirements.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Research-Poster-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Medical Innovation",
@@ -665,7 +683,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Med-Innovation-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Parliamentary Procedure",
@@ -675,7 +693,7 @@ window.SITE = {
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Parli-Pro-Txgl.pdf"
+     "pdf": ""
     },
     {
      "n": "Public Service Announcement",
@@ -685,7 +703,7 @@ window.SITE = {
      "a": "N",
      "u": "AS",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-PSA-Txgl.pdf"
+     "pdf": ""
     }
    ]
   },
@@ -696,11 +714,31 @@ window.SITE = {
      "n": "Medical Art Poster",
      "w": "Kyle Cano",
      "t": "Individual",
-     "s": "MAX 4 person",
+     "s": "1 person",
      "a": "N",
      "u": "N",
      "note": "Bring the physical poster to competition; no online test or advance digital entry upload is listed.",
-     "pdf": "https://texashosa.org/wp-content/uploads/MEDICAL-ART-POSTER-EVENT-4.pdf"
+     "pdf": ""
+    },
+    {
+     "n": "Texas HOSA Blood Drive",
+     "w": "Kyle Cano",
+     "t": "Chapter",
+     "s": "Whole chapter",
+     "a": "N",
+     "u": "F",
+     "note": "One student is registered to receive the chapter recognition. Submit the blood-bank verification letter and form for State recognition. The Texas guideline allows mail or email; confirm the conference submission instructions with your advisor.",
+     "pdf": ""
+    },
+    {
+     "n": "Officer Candidate",
+     "w": "Kyle Cano",
+     "t": "Individual",
+     "s": "1 person",
+     "a": "Y",
+     "u": "F",
+     "note": "Officer candidacy; confirm eligibility and application requirements with your advisor. Take the Area officer exam online. Submit application materials and an unlisted video through the candidate application process; see the officer handbook.",
+     "pdf": ""
     }
    ]
   },
@@ -715,7 +753,7 @@ window.SITE = {
      "a": "N",
      "u": "T",
      "note": "Report donor numbers through the ABC data portal. Texas lists this recognition at ILC only.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-America-Blood-Drive-TXgl-1.pdf"
+     "pdf": ""
     },
     {
      "n": "Barbara James Service Award",
@@ -725,7 +763,7 @@ window.SITE = {
      "a": "N",
      "u": "T",
      "note": "Enter service hours in HATS and have your advisor approve them by the applicable State/ILC deadline.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Barbara-James-Txgl-1.pdf"
+     "pdf": ""
     },
     {
      "n": "Healthcare Issues Exam",
@@ -735,7 +773,7 @@ window.SITE = {
      "a": "Y",
      "u": "N",
      "note": "",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Health-Care-Issues-Txgl-1.pdf"
+     "pdf": ""
     },
     {
      "n": "Emotional Well-Being Challenge",
@@ -745,7 +783,7 @@ window.SITE = {
      "a": "N",
      "u": "ILC",
      "note": "Submit the presentation video and evaluation tool through the form linked in the guideline. This recognition is offered at ILC only.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-Emotional-Well-Being-Txgl-1.pdf"
+     "pdf": ""
     },
     {
      "n": "HOSA Happenings",
@@ -755,7 +793,7 @@ window.SITE = {
      "a": "N",
      "u": "S",
      "note": "Chapter project coordinated by one appointed member. Submit the chapter communication entry before the Texas State conference deadline using the State submission process.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-HOSA-Happen-TXgl-1.pdf"
+     "pdf": ""
     },
     {
      "n": "HOSA Service Project",
@@ -765,7 +803,7 @@ window.SITE = {
      "a": "N",
      "u": "T",
      "note": "Record volunteer hours and fundraising through NMDP. Complete State submissions by the State conference deadline; follow the ILC deadline when applicable.",
-     "pdf": "https://texashosa.org/wp-content/uploads/26-27-HOSA-Service-Project-Txgl-1.pdf"
+     "pdf": ""
     }
    ]
   }
